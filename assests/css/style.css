@@ -1,0 +1,113 @@
+*{
+    background-color: #11998e;
+    background-color: linear-gradient(to right, #38ef7d, #11998e); 
+    background-color: -webkit-linear-gradient(to right, #38ef7d, #11998e); 
+   
+}
+.card{
+    height: 200%;
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 500px;
+    background: white;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 310px;
+    align-self: auto;
+}
+.header{
+    margin: 50px;
+    width: 105%;
+    height: 300%;
+    left: 10%;
+    right: 0%;
+    background-color: #119981;
+    border-radius: 10px;
+    margin-left: -11px;
+    margin-right: -1px;
+    margin-top: -60px;
+    border-bottom: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 20px;
+    border-color: black;
+    padding: 3px;
+}
+.header>img{
+    margin-left: 130px;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    left: 90px;
+    top: 50px;
+    background-color: white;
+    margin-bottom: 10px;
+    bottom: 30px;
+}
+.header>h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 6px;
+    margin-left:  120px;
+}
+.header>p{
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    margin-top: -10px;
+    margin-left: 130px;
+}
+.profile{
+    background-color: white;
+}
+.profile>h3{
+    color: #119981;
+    border-radius: 1px;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    line-height: 0px;
+}
+.profile>p{
+    font-size: 20px;
+    line-height: 0px;
+    color: #119981;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.profile>h3>p{
+    line-height: 1px;
+}
+.profile>i{
+    line-height: 0%;
+    font-size: 40px;
+    color: #119981;
+}
+.icons{
+    margin: 0px;
+    padding: 30px;
+    border-radius: 15px;
+    width: 89%;
+    margin-left:-10px;
+    margin-bottom: -50px;
+    color:  black;
+    background-color: #16a085;
+    bottom: 40px;
+    height: 30px;
+}
+.icons>i{
+    height: 5px;
+    padding: 8px;
+    background-color: #16a085;
+    margin: 9px;
+    width: 30px;
+ 
+    font-size: 50px;
+    margin-top: -20px;
+    transition: all .3s ease;
+    
+}
+.icons>i:hover{
+   transform: scale(0.5);
+   color: white;
+}
